@@ -1,6 +1,5 @@
 'use client';
 import { Box, Button, Heading, Stack, Text, Image } from '@chakra-ui/react';
-import { ArrowBackIcon } from '@chakra-ui/icons';  // Icône de flèche
 import React from 'react';
 
 export default function InnovationsMedicales() {
@@ -13,7 +12,6 @@ export default function InnovationsMedicales() {
             {/* Bouton retour */}
             <Button 
                 onClick={handleBack}
-                leftIcon={<ArrowBackIcon />} 
                 variant={'solid'} borderColor={'gray.400'} colorScheme="blue" _hover={{ backgroundColor: 'blue.600' }}
                 color={'black'}
                 mb={4}
